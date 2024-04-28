@@ -1,0 +1,9 @@
+launch:
+
+- node:
+    pkg: "motor_ctl"
+    exec: "publisher"
+    
+- node:
+    pkg: "motor_ctl"
+    exec: "subscriber"
