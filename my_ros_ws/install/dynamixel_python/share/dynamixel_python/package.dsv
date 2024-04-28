@@ -1,0 +1,3 @@
+source;share/dynamixel_python/hook/pythonpath.ps1
+source;share/dynamixel_python/hook/pythonpath.dsv
+source;share/dynamixel_python/hook/pythonpath.sh

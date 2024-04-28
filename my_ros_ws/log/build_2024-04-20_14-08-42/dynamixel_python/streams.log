@@ -1,0 +1,160 @@
+[3.009s] Invoking command in '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python': PYTHONPATH=/home/group1/my_ros_ws/build/dynamixel_python/prefix_override:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_python build --build-base /home/group1/my_ros_ws/build/dynamixel_python/build install --record /home/group1/my_ros_ws/build/dynamixel_python/install.log --single-version-externally-managed
+[4.260s] running egg_info
+[4.263s] creating ../../build/dynamixel_python/dynamixel_python.egg-info
+[4.264s] writing ../../build/dynamixel_python/dynamixel_python.egg-info/PKG-INFO
+[4.265s] writing dependency_links to ../../build/dynamixel_python/dynamixel_python.egg-info/dependency_links.txt
+[4.265s] writing requirements to ../../build/dynamixel_python/dynamixel_python.egg-info/requires.txt
+[4.266s] writing top-level names to ../../build/dynamixel_python/dynamixel_python.egg-info/top_level.txt
+[4.267s] writing manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'
+[4.287s] reading manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'
+[4.290s] adding license file 'LICENSE'
+[4.295s] writing manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'
+[4.296s] running build
+[4.296s] running build_py
+[4.297s] creating /home/group1/my_ros_ws/build/dynamixel_python/build
+[4.298s] creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib
+[4.298s] creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python
+[4.299s] copying ./dynamixel_python/__main__.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python
+[4.300s] copying ./dynamixel_python/__init__.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python
+[4.301s] creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper
+[4.302s] copying ./dynamixel_python/web_scraper/get_model_list.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper
+[4.304s] copying ./dynamixel_python/web_scraper/get_ctrl_table.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper
+[4.305s] copying ./dynamixel_python/web_scraper/get_all_ctrl_tables.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper
+[4.307s] copying ./dynamixel_python/web_scraper/__init__.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper
+[4.315s] creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.316s] copying ./dynamixel_python/control_tables/2xc430-w250.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.317s] copying ./dynamixel_python/control_tables/2xl430-w250.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.320s] copying ./dynamixel_python/control_tables/ax-12a.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.321s] copying ./dynamixel_python/control_tables/ax-12w.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.323s] copying ./dynamixel_python/control_tables/ax-18a.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.324s] copying ./dynamixel_python/control_tables/dx-113.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.326s] copying ./dynamixel_python/control_tables/dx-116.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.328s] copying ./dynamixel_python/control_tables/dx-117.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.329s] copying ./dynamixel_python/control_tables/ex-106+.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.331s] copying ./dynamixel_python/control_tables/h42-20-s300-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.333s] copying ./dynamixel_python/control_tables/h54-100-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.335s] copying ./dynamixel_python/control_tables/h54-200-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.337s] copying ./dynamixel_python/control_tables/l42-10-s300-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.339s] copying ./dynamixel_python/control_tables/l54-30-s400-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.341s] copying ./dynamixel_python/control_tables/l54-30-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.343s] copying ./dynamixel_python/control_tables/l54-50-s290-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.345s] copying ./dynamixel_python/control_tables/l54-50-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.347s] copying ./dynamixel_python/control_tables/m42-10-s260-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.349s] copying ./dynamixel_python/control_tables/m54-40-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.351s] copying ./dynamixel_python/control_tables/m54-60-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.353s] copying ./dynamixel_python/control_tables/mx-106.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.355s] copying ./dynamixel_python/control_tables/mx-12w.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.357s] copying ./dynamixel_python/control_tables/mx-28.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.359s] copying ./dynamixel_python/control_tables/mx-64.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.360s] copying ./dynamixel_python/control_tables/ph54-100-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.363s] copying ./dynamixel_python/control_tables/pm42-010-s260-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.365s] copying ./dynamixel_python/control_tables/pm54-040-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.367s] copying ./dynamixel_python/control_tables/pm54-060-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.369s] copying ./dynamixel_python/control_tables/rx-10.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.371s] copying ./dynamixel_python/control_tables/rx-24f.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.373s] copying ./dynamixel_python/control_tables/rx-28.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.375s] copying ./dynamixel_python/control_tables/rx-64.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.377s] copying ./dynamixel_python/control_tables/xc430-w150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.379s] copying ./dynamixel_python/control_tables/xc430-w240.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.381s] copying ./dynamixel_python/control_tables/xd430-t350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.383s] copying ./dynamixel_python/control_tables/xd540-t150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.385s] copying ./dynamixel_python/control_tables/xd540-t270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.388s] copying ./dynamixel_python/control_tables/xh430-v210.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.392s] copying ./dynamixel_python/control_tables/xh430-v350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.394s] copying ./dynamixel_python/control_tables/xh430-w210.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.397s] copying ./dynamixel_python/control_tables/xh430-w350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.399s] copying ./dynamixel_python/control_tables/xh540-v150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.401s] copying ./dynamixel_python/control_tables/xh540-v270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.404s] copying ./dynamixel_python/control_tables/xh540-w150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.407s] copying ./dynamixel_python/control_tables/xh540-w270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.409s] copying ./dynamixel_python/control_tables/xl320.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.411s] copying ./dynamixel_python/control_tables/xl330-m077.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.414s] copying ./dynamixel_python/control_tables/xl330-m288.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.416s] copying ./dynamixel_python/control_tables/xl430-w250.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.418s] copying ./dynamixel_python/control_tables/xm430-w210.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.421s] copying ./dynamixel_python/control_tables/xm430-w350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.423s] copying ./dynamixel_python/control_tables/xm540-w150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.425s] copying ./dynamixel_python/control_tables/xm540-w270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.428s] copying ./dynamixel_python/control_tables/xw430-t200.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.430s] copying ./dynamixel_python/control_tables/xw430-t333.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.432s] copying ./dynamixel_python/control_tables/xw540-t140.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.434s] copying ./dynamixel_python/control_tables/xw540-t260.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables
+[4.437s] running install
+[4.439s] running install_lib
+[4.442s] creating /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python
+[4.443s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/__main__.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python
+[4.443s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/__init__.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python
+[4.445s] creating /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.446s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-64.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.447s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/m54-60-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.448s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm430-w210.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.449s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-w350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.450s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw430-t200.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.451s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl330-m077.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.452s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ex-106+.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.453s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-30-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.454s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-64.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.455s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-28.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.456s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ph54-100-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.457s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-28.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.458s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/h54-200-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.459s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ax-18a.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.460s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-50-s290-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.461s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-30-s400-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.462s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm430-w350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.463s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw540-t260.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.464s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xc430-w240.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.465s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-12w.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.466s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/pm42-010-s260-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.467s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-v210.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.468s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-v270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.469s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl330-m288.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.470s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-w270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.472s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-w210.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.473s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xd430-t350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.474s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/pm54-060-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.475s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/m42-10-s260-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.476s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/h54-100-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.477s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-24f.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.478s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xd540-t270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.479s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/dx-116.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.480s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-w150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.481s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xc430-w150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.482s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/pm54-040-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.484s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/2xl430-w250.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.485s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xd540-t150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.486s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ax-12w.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.487s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-106.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.488s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-v150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.492s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-v350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.492s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l42-10-s300-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.493s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/dx-113.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.494s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw430-t333.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.495s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-50-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.495s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl430-w250.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.497s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl320.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.497s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/dx-117.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.498s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/h42-20-s300-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.500s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/2xc430-w250.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.501s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm540-w150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.502s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/m54-40-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.505s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-10.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.505s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ax-12a.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.506s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm540-w270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.507s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw540-t140.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables
+[4.508s] creating /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper
+[4.508s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/get_model_list.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper
+[4.509s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/get_ctrl_table.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper
+[4.510s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/get_all_ctrl_tables.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper
+[4.511s] copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/__init__.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper
+[4.515s] byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/__main__.py to __main__.cpython-310.pyc
+[4.521s] byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/__init__.py to __init__.cpython-310.pyc
+[4.523s] byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/get_model_list.py to get_model_list.cpython-310.pyc
+[4.525s] byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/get_ctrl_table.py to get_ctrl_table.cpython-310.pyc
+[4.528s] byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/get_all_ctrl_tables.py to get_all_ctrl_tables.cpython-310.pyc
+[4.530s] byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/__init__.py to __init__.cpython-310.pyc
+[4.531s] running install_egg_info
+[4.538s] Copying ../../build/dynamixel_python/dynamixel_python.egg-info to /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python-0.0.1-py3.10.egg-info
+[4.543s] running install_scripts
+[4.633s] writing list of installed files to '/home/group1/my_ros_ws/build/dynamixel_python/install.log'
+[4.764s] Invoked command in '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python' returned '0': PYTHONPATH=/home/group1/my_ros_ws/build/dynamixel_python/prefix_override:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_python build --build-base /home/group1/my_ros_ws/build/dynamixel_python/build install --record /home/group1/my_ros_ws/build/dynamixel_python/install.log --single-version-externally-managed

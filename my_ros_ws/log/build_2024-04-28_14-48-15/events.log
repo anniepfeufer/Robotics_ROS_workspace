@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001521] (dynamixel_python) JobQueued: {'identifier': 'dynamixel_python', 'dependencies': OrderedDict()}
+[0.002072] (motor_ctl) JobQueued: {'identifier': 'motor_ctl', 'dependencies': OrderedDict()}
+[0.002276] (dynamixel_python) JobStarted: {'identifier': 'dynamixel_python'}
+[0.031199] (motor_ctl) JobStarted: {'identifier': 'motor_ctl'}
+[0.099014] (-) TimerEvent: {}
+[0.199659] (-) TimerEvent: {}
+[0.300506] (-) TimerEvent: {}
+[0.401226] (-) TimerEvent: {}
+[0.501870] (-) TimerEvent: {}
+[0.602509] (-) TimerEvent: {}
+[0.703176] (-) TimerEvent: {}
+[0.803796] (-) TimerEvent: {}
+[0.904418] (-) TimerEvent: {}
+[1.005136] (-) TimerEvent: {}
+[1.105849] (-) TimerEvent: {}
+[1.206833] (-) TimerEvent: {}
+[1.307823] (-) TimerEvent: {}
+[1.408686] (-) TimerEvent: {}
+[1.509536] (-) TimerEvent: {}
+[1.610527] (-) TimerEvent: {}
+[1.711303] (-) TimerEvent: {}
+[1.812085] (-) TimerEvent: {}
+[1.912866] (-) TimerEvent: {}
+[2.013632] (-) TimerEvent: {}
+[2.114310] (-) TimerEvent: {}
+[2.215173] (-) TimerEvent: {}
+[2.315854] (-) TimerEvent: {}
+[2.416748] (-) TimerEvent: {}
+[2.518150] (-) TimerEvent: {}
+[2.618870] (-) TimerEvent: {}
+[2.719732] (-) TimerEvent: {}
+[2.821263] (-) TimerEvent: {}
+[2.840441] (dynamixel_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dynamixel_python', 'build', '--build-base', '/home/group1/my_ros_ws/build/dynamixel_python/build', 'install', '--record', '/home/group1/my_ros_ws/build/dynamixel_python/install.log', '--single-version-externally-managed'], 'cwd': '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/group1', 'OLDPWD': '/home/group1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1177', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/group1/my_ros_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'group1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/group1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group1-pi:@/tmp/.ICE-unix/1155,unix/group1-pi:/tmp/.ICE-unix/1155', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ff2a761c_654b_4467_9898_eda3b66cb264', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.DB7MM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/group1/my_ros_ws/install/motor_ctl:/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group1/my_ros_ws/build/dynamixel_python', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group1/my_ros_ws/build/dynamixel_python/prefix_override:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.921426] (-) TimerEvent: {}
+[3.022238] (-) TimerEvent: {}
+[3.123101] (-) TimerEvent: {}
+[3.223883] (-) TimerEvent: {}
+[3.324617] (-) TimerEvent: {}
+[3.425281] (-) TimerEvent: {}
+[3.525948] (-) TimerEvent: {}
+[3.626598] (-) TimerEvent: {}
+[3.727335] (-) TimerEvent: {}
+[3.827982] (-) TimerEvent: {}
+[3.928731] (-) TimerEvent: {}
+[4.029450] (-) TimerEvent: {}
+[4.057957] (dynamixel_python) StdoutLine: {'line': b'running egg_info\n'}
+[4.063034] (dynamixel_python) StdoutLine: {'line': b'writing ../../build/dynamixel_python/dynamixel_python.egg-info/PKG-INFO\n'}
+[4.065997] (dynamixel_python) StdoutLine: {'line': b'writing dependency_links to ../../build/dynamixel_python/dynamixel_python.egg-info/dependency_links.txt\n'}
+[4.066589] (dynamixel_python) StdoutLine: {'line': b'writing requirements to ../../build/dynamixel_python/dynamixel_python.egg-info/requires.txt\n'}
+[4.067346] (dynamixel_python) StdoutLine: {'line': b'writing top-level names to ../../build/dynamixel_python/dynamixel_python.egg-info/top_level.txt\n'}
+[4.082934] (dynamixel_python) StdoutLine: {'line': b"reading manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'\n"}
+[4.085835] (dynamixel_python) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.091979] (dynamixel_python) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'\n"}
+[4.093047] (dynamixel_python) StdoutLine: {'line': b'running build\n'}
+[4.094208] (dynamixel_python) StdoutLine: {'line': b'running build_py\n'}
+[4.129720] (-) TimerEvent: {}
+[4.142098] (dynamixel_python) StdoutLine: {'line': b'running install\n'}
+[4.144435] (dynamixel_python) StdoutLine: {'line': b'running install_lib\n'}
+[4.173748] (dynamixel_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.183446] (dynamixel_python) StdoutLine: {'line': b"removing '/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.185368] (dynamixel_python) StdoutLine: {'line': b'Copying ../../build/dynamixel_python/dynamixel_python.egg-info to /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python-0.0.1-py3.10.egg-info\n'}
+[4.193621] (dynamixel_python) StdoutLine: {'line': b'running install_scripts\n'}
+[4.234812] (-) TimerEvent: {}
+[4.255445] (motor_ctl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_ctl', 'build', '--build-base', '/home/group1/my_ros_ws/build/motor_ctl/build', 'install', '--record', '/home/group1/my_ros_ws/build/motor_ctl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group1/my_ros_ws/src/motor_ctl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/group1', 'OLDPWD': '/home/group1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1177', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/group1/my_ros_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'group1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/group1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group1-pi:@/tmp/.ICE-unix/1155,unix/group1-pi:/tmp/.ICE-unix/1155', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ff2a761c_654b_4467_9898_eda3b66cb264', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.DB7MM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/group1/my_ros_ws/install/motor_ctl:/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group1/my_ros_ws/build/motor_ctl', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.299843] (dynamixel_python) StdoutLine: {'line': b"writing list of installed files to '/home/group1/my_ros_ws/build/dynamixel_python/install.log'\n"}
+[4.335050] (-) TimerEvent: {}
+[4.433268] (dynamixel_python) CommandEnded: {'returncode': 0}
+[4.435193] (-) TimerEvent: {}
+[4.489375] (dynamixel_python) JobEnded: {'identifier': 'dynamixel_python', 'rc': 0}
+[4.535392] (-) TimerEvent: {}
+[4.636063] (-) TimerEvent: {}
+[4.736692] (-) TimerEvent: {}
+[4.837338] (-) TimerEvent: {}
+[4.937955] (-) TimerEvent: {}
+[5.038537] (-) TimerEvent: {}
+[5.139181] (-) TimerEvent: {}
+[5.239785] (-) TimerEvent: {}
+[5.340428] (-) TimerEvent: {}
+[5.362238] (motor_ctl) StdoutLine: {'line': b'running egg_info\n'}
+[5.364998] (motor_ctl) StdoutLine: {'line': b'writing ../../build/motor_ctl/motor_ctl.egg-info/PKG-INFO\n'}
+[5.366020] (motor_ctl) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_ctl/motor_ctl.egg-info/dependency_links.txt\n'}
+[5.367929] (motor_ctl) StdoutLine: {'line': b'writing entry points to ../../build/motor_ctl/motor_ctl.egg-info/entry_points.txt\n'}
+[5.369232] (motor_ctl) StdoutLine: {'line': b'writing requirements to ../../build/motor_ctl/motor_ctl.egg-info/requires.txt\n'}
+[5.369990] (motor_ctl) StdoutLine: {'line': b'writing top-level names to ../../build/motor_ctl/motor_ctl.egg-info/top_level.txt\n'}
+[5.377784] (motor_ctl) StdoutLine: {'line': b"reading manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[5.381448] (motor_ctl) StdoutLine: {'line': b"writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[5.382804] (motor_ctl) StdoutLine: {'line': b'running build\n'}
+[5.383476] (motor_ctl) StdoutLine: {'line': b'running build_py\n'}
+[5.383978] (motor_ctl) StdoutLine: {'line': b'copying motor_ctl/publisher.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl\n'}
+[5.385302] (motor_ctl) StdoutLine: {'line': b'running install\n'}
+[5.386489] (motor_ctl) StdoutLine: {'line': b'running install_lib\n'}
+[5.391641] (motor_ctl) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/publisher.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl\n'}
+[5.395579] (motor_ctl) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/publisher.py to publisher.cpython-310.pyc\n'}
+[5.400534] (motor_ctl) StdoutLine: {'line': b'running install_data\n'}
+[5.401130] (motor_ctl) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.407595] (motor_ctl) StdoutLine: {'line': b"removing '/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.409165] (motor_ctl) StdoutLine: {'line': b'Copying ../../build/motor_ctl/motor_ctl.egg-info to /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info\n'}
+[5.414060] (motor_ctl) StdoutLine: {'line': b'running install_scripts\n'}
+[5.440654] (-) TimerEvent: {}
+[5.494255] (motor_ctl) StdoutLine: {'line': b'Installing publisher script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl\n'}
+[5.494949] (motor_ctl) StdoutLine: {'line': b'Installing subscriber script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl\n'}
+[5.496444] (motor_ctl) StdoutLine: {'line': b"writing list of installed files to '/home/group1/my_ros_ws/build/motor_ctl/install.log'\n"}
+[5.540923] (-) TimerEvent: {}
+[5.614232] (motor_ctl) CommandEnded: {'returncode': 0}
+[5.641071] (-) TimerEvent: {}
+[5.647195] (motor_ctl) JobEnded: {'identifier': 'motor_ctl', 'rc': 0}
+[5.649790] (-) EventReactorShutdown: {}

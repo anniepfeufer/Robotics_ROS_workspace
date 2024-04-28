@@ -1,0 +1,37 @@
+[2.594s] Invoking command in '/home/group1/my_ros_ws/src/motor_ctl': PYTHONPATH=/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_ctl build --build-base /home/group1/my_ros_ws/build/motor_ctl/build install --record /home/group1/my_ros_ws/build/motor_ctl/install.log --single-version-externally-managed install_data
+[3.598s] running egg_info
+[3.600s] creating ../../build/motor_ctl/motor_ctl.egg-info
+[3.601s] writing ../../build/motor_ctl/motor_ctl.egg-info/PKG-INFO
+[3.602s] writing dependency_links to ../../build/motor_ctl/motor_ctl.egg-info/dependency_links.txt
+[3.603s] writing entry points to ../../build/motor_ctl/motor_ctl.egg-info/entry_points.txt
+[3.603s] writing requirements to ../../build/motor_ctl/motor_ctl.egg-info/requires.txt
+[3.604s] writing top-level names to ../../build/motor_ctl/motor_ctl.egg-info/top_level.txt
+[3.604s] writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+[3.612s] reading manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+[3.615s] writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+[3.615s] running build
+[3.616s] running build_py
+[3.616s] creating /home/group1/my_ros_ws/build/motor_ctl/build
+[3.617s] creating /home/group1/my_ros_ws/build/motor_ctl/build/lib
+[3.617s] creating /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl
+[3.618s] copying motor_ctl/__init__.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl
+[3.618s] copying motor_ctl/subscriber.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl
+[3.619s] running install
+[3.620s] running install_lib
+[3.623s] creating /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl
+[3.624s] copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/__init__.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl
+[3.624s] copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/subscriber.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl
+[3.627s] byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/__init__.py to __init__.cpython-310.pyc
+[3.628s] byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/subscriber.py to subscriber.cpython-310.pyc
+[3.629s] running install_data
+[3.630s] creating /home/group1/my_ros_ws/install/motor_ctl/share/ament_index
+[3.630s] creating /home/group1/my_ros_ws/install/motor_ctl/share/ament_index/resource_index
+[3.630s] creating /home/group1/my_ros_ws/install/motor_ctl/share/ament_index/resource_index/packages
+[3.631s] copying resource/motor_ctl -> /home/group1/my_ros_ws/install/motor_ctl/share/ament_index/resource_index/packages
+[3.631s] copying package.xml -> /home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl
+[3.632s] running install_egg_info
+[3.638s] Copying ../../build/motor_ctl/motor_ctl.egg-info to /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info
+[3.643s] running install_scripts
+[3.719s] Installing subscriber script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl
+[3.721s] writing list of installed files to '/home/group1/my_ros_ws/build/motor_ctl/install.log'
+[3.832s] Invoked command in '/home/group1/my_ros_ws/src/motor_ctl' returned '0': PYTHONPATH=/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_ctl build --build-base /home/group1/my_ros_ws/build/motor_ctl/build install --record /home/group1/my_ros_ws/build/motor_ctl/install.log --single-version-externally-managed install_data

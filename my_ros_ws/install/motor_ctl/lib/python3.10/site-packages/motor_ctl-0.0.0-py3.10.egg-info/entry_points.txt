@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = motor_ctl.publisher:main
+subscriber = motor_ctl.subscriber:main
+

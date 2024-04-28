@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.001534] (dynamixel_python) JobQueued: {'identifier': 'dynamixel_python', 'dependencies': OrderedDict()}
+[0.002020] (motor_ctl) JobQueued: {'identifier': 'motor_ctl', 'dependencies': OrderedDict()}
+[0.002204] (dynamixel_python) JobStarted: {'identifier': 'dynamixel_python'}
+[0.040233] (motor_ctl) JobStarted: {'identifier': 'motor_ctl'}
+[0.099111] (-) TimerEvent: {}
+[0.199894] (-) TimerEvent: {}
+[0.300683] (-) TimerEvent: {}
+[0.401429] (-) TimerEvent: {}
+[0.502110] (-) TimerEvent: {}
+[0.602755] (-) TimerEvent: {}
+[0.703375] (-) TimerEvent: {}
+[0.803993] (-) TimerEvent: {}
+[0.904664] (-) TimerEvent: {}
+[1.005287] (-) TimerEvent: {}
+[1.106219] (-) TimerEvent: {}
+[1.207457] (-) TimerEvent: {}
+[1.341882] (-) TimerEvent: {}
+[1.442632] (-) TimerEvent: {}
+[1.543535] (-) TimerEvent: {}
+[1.644280] (-) TimerEvent: {}
+[1.745034] (-) TimerEvent: {}
+[1.845753] (-) TimerEvent: {}
+[1.946455] (-) TimerEvent: {}
+[2.047144] (-) TimerEvent: {}
+[2.147813] (-) TimerEvent: {}
+[2.248581] (-) TimerEvent: {}
+[2.349242] (-) TimerEvent: {}
+[2.450063] (-) TimerEvent: {}
+[2.551235] (-) TimerEvent: {}
+[2.651983] (-) TimerEvent: {}
+[2.752820] (-) TimerEvent: {}
+[2.853633] (-) TimerEvent: {}
+[2.954881] (-) TimerEvent: {}
+[2.999539] (dynamixel_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dynamixel_python', 'build', '--build-base', '/home/group1/my_ros_ws/build/dynamixel_python/build', 'install', '--record', '/home/group1/my_ros_ws/build/dynamixel_python/install.log', '--single-version-externally-managed'], 'cwd': '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/group1', 'OLDPWD': '/home/group1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1251', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'group1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/group1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group1-pi:@/tmp/.ICE-unix/1219,unix/group1-pi:/tmp/.ICE-unix/1219', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/da02eca5_1f76_4729_92c5_e75a8ffdb8a6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.G0OLM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group1/my_ros_ws/build/dynamixel_python', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group1/my_ros_ws/build/dynamixel_python/prefix_override:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.055032] (-) TimerEvent: {}
+[3.155725] (-) TimerEvent: {}
+[3.256418] (-) TimerEvent: {}
+[3.357174] (-) TimerEvent: {}
+[3.457869] (-) TimerEvent: {}
+[3.558573] (-) TimerEvent: {}
+[3.659267] (-) TimerEvent: {}
+[3.760007] (-) TimerEvent: {}
+[3.860757] (-) TimerEvent: {}
+[3.961518] (-) TimerEvent: {}
+[4.062268] (-) TimerEvent: {}
+[4.163049] (-) TimerEvent: {}
+[4.234066] (motor_ctl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_ctl', 'build', '--build-base', '/home/group1/my_ros_ws/build/motor_ctl/build', 'install', '--record', '/home/group1/my_ros_ws/build/motor_ctl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group1/my_ros_ws/src/motor_ctl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group1', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/group1', 'OLDPWD': '/home/group1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1251', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'group1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'group1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/group1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/group1-pi:@/tmp/.ICE-unix/1219,unix/group1-pi:/tmp/.ICE-unix/1219', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/da02eca5_1f76_4729_92c5_e75a8ffdb8a6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.G0OLM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/group1/my_ros_ws/build/motor_ctl', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.261448] (dynamixel_python) StdoutLine: {'line': b'running egg_info\n'}
+[4.263393] (-) TimerEvent: {}
+[4.264842] (dynamixel_python) StdoutLine: {'line': b'creating ../../build/dynamixel_python/dynamixel_python.egg-info\n'}
+[4.265651] (dynamixel_python) StdoutLine: {'line': b'writing ../../build/dynamixel_python/dynamixel_python.egg-info/PKG-INFO\n'}
+[4.266606] (dynamixel_python) StdoutLine: {'line': b'writing dependency_links to ../../build/dynamixel_python/dynamixel_python.egg-info/dependency_links.txt\n'}
+[4.267463] (dynamixel_python) StdoutLine: {'line': b'writing requirements to ../../build/dynamixel_python/dynamixel_python.egg-info/requires.txt\n'}
+[4.268108] (dynamixel_python) StdoutLine: {'line': b'writing top-level names to ../../build/dynamixel_python/dynamixel_python.egg-info/top_level.txt\n'}
+[4.269112] (dynamixel_python) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'\n"}
+[4.289016] (dynamixel_python) StdoutLine: {'line': b"reading manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'\n"}
+[4.290859] (dynamixel_python) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.296742] (dynamixel_python) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_python/dynamixel_python.egg-info/SOURCES.txt'\n"}
+[4.297637] (dynamixel_python) StdoutLine: {'line': b'running build\n'}
+[4.298210] (dynamixel_python) StdoutLine: {'line': b'running build_py\n'}
+[4.299104] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/dynamixel_python/build\n'}
+[4.299801] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib\n'}
+[4.300266] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python\n'}
+[4.300926] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/__main__.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python\n'}
+[4.301511] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/__init__.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python\n'}
+[4.303179] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper\n'}
+[4.303996] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/web_scraper/get_model_list.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper\n'}
+[4.305587] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/web_scraper/get_ctrl_table.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper\n'}
+[4.307085] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/web_scraper/get_all_ctrl_tables.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper\n'}
+[4.308539] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/web_scraper/__init__.py -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper\n'}
+[4.316481] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.317793] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/2xc430-w250.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.319332] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/2xl430-w250.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.321640] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/ax-12a.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.323307] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/ax-12w.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.324877] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/ax-18a.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.326409] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/dx-113.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.327966] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/dx-116.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.329826] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/dx-117.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.331393] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/ex-106+.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.333107] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/h42-20-s300-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.335208] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/h54-100-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.337150] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/h54-200-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.339077] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/l42-10-s300-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.341169] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/l54-30-s400-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.343250] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/l54-30-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.345366] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/l54-50-s290-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.347357] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/l54-50-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.349278] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/m42-10-s260-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.351221] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/m54-40-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.353216] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/m54-60-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.355258] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/mx-106.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.357068] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/mx-12w.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.358872] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/mx-28.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.360762] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/mx-64.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.362521] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/ph54-100-s500-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.363500] (-) TimerEvent: {}
+[4.364816] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/pm42-010-s260-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.366983] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/pm54-040-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.369188] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/pm54-060-s250-r.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.371322] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/rx-10.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.373226] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/rx-24f.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.375160] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/rx-28.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.376880] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/rx-64.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.378571] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xc430-w150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.381000] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xc430-w240.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.383135] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xd430-t350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.385181] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xd540-t150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.387466] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xd540-t270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.390120] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh430-v210.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.394152] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh430-v350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.396369] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh430-w210.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.398691] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh430-w350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.400963] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh540-v150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.403391] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh540-v270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.406310] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh540-w150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.408643] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xh540-w270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.410760] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xl320.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.412533] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xl330-m077.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.415580] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xl330-m288.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.418131] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xl430-w250.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.420264] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xm430-w210.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.422511] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xm430-w350.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.424906] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xm540-w150.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.427158] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xm540-w270.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.429704] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xw430-t200.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.431814] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xw430-t333.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.433957] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xw540-t140.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.436082] (dynamixel_python) StdoutLine: {'line': b'copying ./dynamixel_python/control_tables/xw540-t260.json -> /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables\n'}
+[4.439393] (dynamixel_python) StdoutLine: {'line': b'running install\n'}
+[4.440794] (dynamixel_python) StdoutLine: {'line': b'running install_lib\n'}
+[4.444112] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python\n'}
+[4.444822] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/__main__.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python\n'}
+[4.445583] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/__init__.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python\n'}
+[4.447160] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.447851] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-64.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.448724] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/m54-60-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.449722] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm430-w210.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.450697] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-w350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.451704] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw430-t200.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.452865] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl330-m077.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.453928] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ex-106+.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.454866] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-30-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.455834] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-64.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.456942] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-28.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.457865] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ph54-100-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.458894] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-28.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.459817] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/h54-200-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.460816] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ax-18a.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.461780] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-50-s290-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.462781] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-30-s400-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.463676] (-) TimerEvent: {}
+[4.464318] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm430-w350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.465142] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw540-t260.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.466235] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xc430-w240.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.467364] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-12w.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.468275] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/pm42-010-s260-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.469323] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-v210.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.470342] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-v270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.471374] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl330-m288.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.472449] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-w270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.473694] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-w210.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.475094] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xd430-t350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.475846] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/pm54-060-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.477142] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/m42-10-s260-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.478163] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/h54-100-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.479253] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-24f.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.480203] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xd540-t270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.481396] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/dx-116.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.482333] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-w150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.483396] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xc430-w150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.484516] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/pm54-040-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.485701] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/2xl430-w250.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.486790] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xd540-t150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.487824] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ax-12w.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.488799] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/mx-106.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.489738] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh540-v150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.492843] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xh430-v350.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.494559] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l42-10-s300-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.495371] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/dx-113.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.496115] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw430-t333.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.496879] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/l54-50-s500-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.497414] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl430-w250.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.498586] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xl320.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.499497] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/dx-117.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.500450] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/h42-20-s300-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.501566] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/2xc430-w250.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.502724] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm540-w150.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.503775] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/m54-40-s250-r.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.506890] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/rx-10.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.507577] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/ax-12a.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.508028] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xm540-w270.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.508674] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/control_tables/xw540-t140.json -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/control_tables\n'}
+[4.509775] (dynamixel_python) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper\n'}
+[4.510422] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/get_model_list.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper\n'}
+[4.511303] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/get_ctrl_table.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper\n'}
+[4.512219] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/get_all_ctrl_tables.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper\n'}
+[4.513286] (dynamixel_python) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/dynamixel_python/build/lib/dynamixel_python/web_scraper/__init__.py -> /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper\n'}
+[4.517464] (dynamixel_python) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/__main__.py to __main__.cpython-310.pyc\n'}
+[4.522934] (dynamixel_python) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/__init__.py to __init__.cpython-310.pyc\n'}
+[4.524395] (dynamixel_python) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/get_model_list.py to get_model_list.cpython-310.pyc\n'}
+[4.526965] (dynamixel_python) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/get_ctrl_table.py to get_ctrl_table.cpython-310.pyc\n'}
+[4.529956] (dynamixel_python) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/get_all_ctrl_tables.py to get_all_ctrl_tables.cpython-310.pyc\n'}
+[4.531955] (dynamixel_python) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python/web_scraper/__init__.py to __init__.cpython-310.pyc\n'}
+[4.533164] (dynamixel_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.540117] (dynamixel_python) StdoutLine: {'line': b'Copying ../../build/dynamixel_python/dynamixel_python.egg-info to /home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages/dynamixel_python-0.0.1-py3.10.egg-info\n'}
+[4.544780] (dynamixel_python) StdoutLine: {'line': b'running install_scripts\n'}
+[4.563830] (-) TimerEvent: {}
+[4.634887] (dynamixel_python) StdoutLine: {'line': b"writing list of installed files to '/home/group1/my_ros_ws/build/dynamixel_python/install.log'\n"}
+[4.664179] (-) TimerEvent: {}
+[4.765773] (dynamixel_python) CommandEnded: {'returncode': 0}
+[4.767213] (-) TimerEvent: {}
+[4.826084] (dynamixel_python) JobEnded: {'identifier': 'dynamixel_python', 'rc': 0}
+[4.867395] (-) TimerEvent: {}
+[4.967986] (-) TimerEvent: {}
+[5.068585] (-) TimerEvent: {}
+[5.169231] (-) TimerEvent: {}
+[5.269850] (-) TimerEvent: {}
+[5.370473] (-) TimerEvent: {}
+[5.385366] (motor_ctl) StdoutLine: {'line': b'running egg_info\n'}
+[5.388108] (motor_ctl) StdoutLine: {'line': b'writing ../../build/motor_ctl/motor_ctl.egg-info/PKG-INFO\n'}
+[5.391847] (motor_ctl) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_ctl/motor_ctl.egg-info/dependency_links.txt\n'}
+[5.393420] (motor_ctl) StdoutLine: {'line': b'writing entry points to ../../build/motor_ctl/motor_ctl.egg-info/entry_points.txt\n'}
+[5.394267] (motor_ctl) StdoutLine: {'line': b'writing requirements to ../../build/motor_ctl/motor_ctl.egg-info/requires.txt\n'}
+[5.394911] (motor_ctl) StdoutLine: {'line': b'writing top-level names to ../../build/motor_ctl/motor_ctl.egg-info/top_level.txt\n'}
+[5.403867] (motor_ctl) StdoutLine: {'line': b"reading manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[5.409209] (motor_ctl) StdoutLine: {'line': b"writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[5.409881] (motor_ctl) StdoutLine: {'line': b'running build\n'}
+[5.410349] (motor_ctl) StdoutLine: {'line': b'running build_py\n'}
+[5.412332] (motor_ctl) StdoutLine: {'line': b'copying motor_ctl/subscriber.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl\n'}
+[5.413663] (motor_ctl) StdoutLine: {'line': b'running install\n'}
+[5.414857] (motor_ctl) StdoutLine: {'line': b'running install_lib\n'}
+[5.419120] (motor_ctl) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/subscriber.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl\n'}
+[5.422325] (motor_ctl) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/subscriber.py to subscriber.cpython-310.pyc\n'}
+[5.423289] (motor_ctl) StderrLine: {'line': b'  File "/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/subscriber.py", line 5\n'}
+[5.423802] (motor_ctl) StderrLine: {'line': b'    from ../../../dynamixel_python/dynamixel_python/examples import v_test\n'}
+[5.424138] (motor_ctl) StderrLine: {'line': b'           ^\n'}
+[5.424492] (motor_ctl) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[5.424857] (motor_ctl) StderrLine: {'line': b'\n'}
+[5.425202] (motor_ctl) StdoutLine: {'line': b'running install_data\n'}
+[5.425663] (motor_ctl) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.431953] (motor_ctl) StdoutLine: {'line': b"removing '/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.433682] (motor_ctl) StdoutLine: {'line': b'Copying ../../build/motor_ctl/motor_ctl.egg-info to /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info\n'}
+[5.439496] (motor_ctl) StdoutLine: {'line': b'running install_scripts\n'}
+[5.470658] (-) TimerEvent: {}
+[5.518335] (motor_ctl) StdoutLine: {'line': b'Installing publisher script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl\n'}
+[5.519834] (motor_ctl) StdoutLine: {'line': b'Installing subscriber script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl\n'}
+[5.521405] (motor_ctl) StdoutLine: {'line': b"writing list of installed files to '/home/group1/my_ros_ws/build/motor_ctl/install.log'\n"}
+[5.570934] (-) TimerEvent: {}
+[5.639372] (motor_ctl) CommandEnded: {'returncode': 0}
+[5.669426] (motor_ctl) JobEnded: {'identifier': 'motor_ctl', 'rc': 0}
+[5.672327] (-) TimerEvent: {}
+[5.672778] (-) EventReactorShutdown: {}

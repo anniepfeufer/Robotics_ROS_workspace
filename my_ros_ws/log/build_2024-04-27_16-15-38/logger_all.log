@@ -1,0 +1,259 @@
+[0.426s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.427s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff94eb40a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff94fecca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff94fecca0>>)
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.179s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/group1/my_ros_ws'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extensions ['ignore', 'ignore_ament_install']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'ignore'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'ignore_ament_install'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extensions ['colcon_pkg']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'colcon_pkg'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extensions ['colcon_meta']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'colcon_meta'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extensions ['ros']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'ros'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extensions ['cmake', 'python']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'cmake'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'python'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extensions ['python_setup_py']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python) by extension 'python_setup_py'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'ignore'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'ignore_ament_install'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extensions ['colcon_pkg']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'colcon_pkg'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extensions ['colcon_meta']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'colcon_meta'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extensions ['ros']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'ros'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extensions ['cmake', 'python']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'cmake'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'python'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extensions ['python_setup_py']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX) by extension 'python_setup_py'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extensions ['ignore', 'ignore_ament_install']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'ignore'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'ignore_ament_install'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extensions ['colcon_pkg']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'colcon_pkg'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extensions ['colcon_meta']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'colcon_meta'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extensions ['ros']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'ros'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extensions ['cmake', 'python']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'cmake'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'python'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extensions ['python_setup_py']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python) by extension 'python_setup_py'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extensions ['ignore', 'ignore_ament_install']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'ignore'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'ignore_ament_install'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extensions ['colcon_pkg']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'colcon_pkg'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extensions ['colcon_meta']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'colcon_meta'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extensions ['ros']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'ros'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extensions ['cmake', 'python']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'cmake'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'python'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extensions ['python_setup_py']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build) by extension 'python_setup_py'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extensions ['colcon_pkg']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'colcon_meta'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extensions ['ros']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'ros'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extensions ['cmake', 'python']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'cmake'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'python'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extensions ['python_setup_py']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/build/lib) by extension 'python_setup_py'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extensions ['ignore', 'ignore_ament_install']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'ignore'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'ignore_ament_install'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extensions ['colcon_pkg']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'colcon_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extensions ['colcon_meta']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'colcon_meta'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extensions ['ros']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'ros'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extensions ['cmake', 'python']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'cmake'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'python'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extensions ['python_setup_py']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/__MACOSX/dynamixel_python/dynamixel_python) by extension 'python_setup_py'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extensions ['ignore', 'ignore_ament_install']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'ignore_ament_install'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extensions ['colcon_meta']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'colcon_meta'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extensions ['ros']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'ros'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extensions ['cmake', 'python']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'cmake'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'python'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extensions ['python_setup_py']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(dynamixel_python/dynamixel_python) by extension 'python_setup_py'
+[2.338s] DEBUG:colcon.colcon_core.package_identification:Package 'dynamixel_python/dynamixel_python' with type 'python' and name 'dynamixel_python'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extensions ['ignore', 'ignore_ament_install']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extension 'ignore'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extension 'ignore_ament_install'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extensions ['colcon_pkg']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extension 'colcon_pkg'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extensions ['colcon_meta']
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extension 'colcon_meta'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extensions ['ros']
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_ctl) by extension 'ros'
+[2.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_ctl' with type 'ros.ament_python' and name 'motor_ctl'
+[2.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/group1/my_ros_ws/install
+[2.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[2.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'cmake_args' from command line to 'None'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'cmake_target' from command line to 'None'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'cmake_clean_cache' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'cmake_clean_first' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'cmake_force_configure' from command line to 'False'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'ament_cmake_args' from command line to 'None'
+[2.679s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'catkin_cmake_args' from command line to 'None'
+[2.680s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.680s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group1/my_ros_ws/build/dynamixel_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group1/my_ros_ws/install/dynamixel_python', 'merge_install': False, 'path': '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python', 'symlink_install': False, 'test_result_base': None}
+[2.681s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'cmake_args' from command line to 'None'
+[2.681s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'cmake_target' from command line to 'None'
+[2.681s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.681s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'cmake_clean_cache' from command line to 'False'
+[2.682s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'cmake_clean_first' from command line to 'False'
+[2.682s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'cmake_force_configure' from command line to 'False'
+[2.682s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'ament_cmake_args' from command line to 'None'
+[2.682s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'catkin_cmake_args' from command line to 'None'
+[2.682s] Level 5:colcon.colcon_core.verb:set package 'motor_ctl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.682s] DEBUG:colcon.colcon_core.verb:Building package 'motor_ctl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/group1/my_ros_ws/build/motor_ctl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/group1/my_ros_ws/install/motor_ctl', 'merge_install': False, 'path': '/home/group1/my_ros_ws/src/motor_ctl', 'symlink_install': False, 'test_result_base': None}
+[2.683s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.687s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python'
+[2.696s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.716s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/group1/my_ros_ws/src/motor_ctl' with build type 'ament_python'
+[2.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_ctl', 'ament_prefix_path')
+[2.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/hook/ament_prefix_path.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/hook/ament_prefix_path.dsv'
+[2.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/hook/ament_prefix_path.sh'
+[2.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.183s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/group1/my_ros_ws/src/motor_ctl'
+[5.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python': PYTHONPATH=/home/group1/my_ros_ws/build/dynamixel_python/prefix_override:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_python build --build-base /home/group1/my_ros_ws/build/dynamixel_python/build install --record /home/group1/my_ros_ws/build/dynamixel_python/install.log --single-version-externally-managed
+[6.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/group1/my_ros_ws/src/motor_ctl': PYTHONPATH=/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_ctl build --build-base /home/group1/my_ros_ws/build/motor_ctl/build install --record /home/group1/my_ros_ws/build/motor_ctl/install.log --single-version-externally-managed install_data
+[7.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group1/my_ros_ws/dynamixel_python/dynamixel_python' returned '0': PYTHONPATH=/home/group1/my_ros_ws/build/dynamixel_python/prefix_override:/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_python build --build-base /home/group1/my_ros_ws/build/dynamixel_python/build install --record /home/group1/my_ros_ws/build/dynamixel_python/install.log --single-version-externally-managed
+[7.141s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python' for CMake module files
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python' for CMake config files
+[7.148s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python/lib'
+[7.150s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python/bin'
+[7.150s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python/lib/pkgconfig/dynamixel_python.pc'
+[7.152s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python/lib/python3.10/site-packages'
+[7.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_python', 'pythonpath')
+[7.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/hook/pythonpath.ps1'
+[7.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/hook/pythonpath.dsv'
+[7.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/hook/pythonpath.sh'
+[7.160s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/dynamixel_python/bin'
+[7.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_python)
+[7.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/package.ps1'
+[7.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/package.dsv'
+[7.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/package.sh'
+[7.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/package.bash'
+[7.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/dynamixel_python/share/dynamixel_python/package.zsh'
+[7.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group1/my_ros_ws/install/dynamixel_python/share/colcon-core/packages/dynamixel_python)
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl' for CMake module files
+[8.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/group1/my_ros_ws/src/motor_ctl' returned '0': PYTHONPATH=/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_ctl build --build-base /home/group1/my_ros_ws/build/motor_ctl/build install --record /home/group1/my_ros_ws/build/motor_ctl/install.log --single-version-externally-managed install_data
+[8.279s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl' for CMake config files
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl/lib'
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl/bin'
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl/lib/pkgconfig/motor_ctl.pc'
+[8.287s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages'
+[8.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_ctl', 'pythonpath')
+[8.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/hook/pythonpath.ps1'
+[8.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/hook/pythonpath.dsv'
+[8.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/hook/pythonpath.sh'
+[8.296s] Level 1:colcon.colcon_core.environment:checking '/home/group1/my_ros_ws/install/motor_ctl/bin'
+[8.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_ctl)
+[8.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/package.ps1'
+[8.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/package.dsv'
+[8.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/package.sh'
+[8.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/package.bash'
+[8.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl/package.zsh'
+[8.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/group1/my_ros_ws/install/motor_ctl/share/colcon-core/packages/motor_ctl)
+[8.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.310s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.334s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.411s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/my_ros_ws/install/local_setup.ps1'
+[8.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group1/my_ros_ws/install/_local_setup_util_ps1.py'
+[8.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/my_ros_ws/install/setup.ps1'
+[8.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/my_ros_ws/install/local_setup.sh'
+[8.431s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/group1/my_ros_ws/install/_local_setup_util_sh.py'
+[8.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/my_ros_ws/install/setup.sh'
+[8.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/my_ros_ws/install/local_setup.bash'
+[8.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/my_ros_ws/install/setup.bash'
+[8.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/group1/my_ros_ws/install/local_setup.zsh'
+[8.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/group1/my_ros_ws/install/setup.zsh'

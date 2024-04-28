@@ -1,0 +1,5 @@
+  File "/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/publisher.py", line 45
+    pub.send_detected(value= [data['us'], data['button'])
+                                                        ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+
