@@ -2,7 +2,7 @@
 
 ## Running the Code
 
-The ROS code has a launch file included, which means that to run it you can type " ros2 launch motor_ctl motor_ctl_launch.yaml " into the command line (assuming you have ROS sourced and built the package). The code for the micro controller is also included, called main.py, and this needs to be run simultaniously from the microcontoller to get readings from the sensors. 
+The ROS code has a launch file included, which means that to run it you can type " ros2 launch motor_ctl motor_ctl_launch.yaml " into the command line (assuming you have ROS sourced and built the package). The code for the micro controller is also included, called main.py, and this needs to be run simultaniously from the microcontoller to get readings from the sensors. The pins for the microcontroller are also labelled in the code, for instructions on how to attach wires.  
 
 The code also utilizes code from the Dynamixel Python repo in order to control the two servo motors in the robot. The repo needs to be pip installed so that the package is available for use. All of the code for getting the motors to run is in the ROS package subscriber, and runs by setting the veolocity of the motor and a timer. This repo is public and can be found on the Dynamixel github owned by msgtn. It has information on how to install the package and write the code, in case modifiactions are needed.
 
